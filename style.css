@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  font-size: 20px;
+  font-family: sans-serif;
+  --light-blue: #f1f8fe;
+  --dark-blue: #2b71f4;
+  --white: #ffffff;
+}
+
+header {
+  background-color: var(--light-blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15rem;
+}
+
+button {
+  background-color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+  border-radius: 8px;
+  font-size: 2rem;
+  padding: 20px;
+  color: var(--white);
+}
+h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+}
